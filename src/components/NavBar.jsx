@@ -1,32 +1,11 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
+import { links } from '../constants';
+
 function NavBar() {
 
     const [nav, setNav] = useState(false);
-
-    const links = [
-        {
-            id: 1,
-            link : 'home'
-        },
-        {
-            id: 2,
-            link : 'about'
-        },
-        {
-            id: 3,
-            link : 'projects'
-        },
-        {
-            id: 4,
-            link : 'experience'
-        },
-        {
-            id: 5,
-            link : 'contact'
-        }
-    ]
 
   return (
     <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>

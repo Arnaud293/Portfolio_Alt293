@@ -1,43 +1,8 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+
+import { socialLinks } from '../constants';
 
 function SocialLinks() {
-
-    const socialLinks = [
-        {
-            id: 1,
-            child: (
-                <>LinkedIn <FaLinkedin size={30} /></>
-            ),
-            url: 'https://linkedin.com',
-            style: 'rounded-tr-md'
-        },
-        {
-            id: 2,
-            child: (
-                <>GitHub <FaGithub size={30} /></>
-            ),
-            url: 'https://github.com/Arnaud293',
-        },
-        {
-            id: 3,
-            child: (
-                <>Mail <HiOutlineMail size={30} /></>
-            ),
-            url: 'mailto:arnaudlt293@gmail.com',
-        },
-        {
-            id: 4,
-            child: (
-                <>Resume <BsFillPersonLinesFill size={30} /></>
-            ),
-            url: '/resume.pdf',
-            style: 'rounded-br-md',
-            download: true
-        }
-    ]
 
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
