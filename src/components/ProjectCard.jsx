@@ -9,11 +9,11 @@ const ProjectCard = ({ project }) => {
     <img src={project.imgUrl} alt={project.title} className='rounded-md duration-200 hover:scale-105 w-full h-[65%]'/>
     <div className='flex items-center justify-center'>
         {project.demoUrl && (
-        <a href={project.demoUrl} target="_blank" className='flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+        <a href={project.demoUrl} target="_blank" className='flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:brightness-75'>
         <button>{<IoEyeSharp size={30} />}</button>
         </a>
         )}
-        <a href={project.codeUrl} target="_blank" className='flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+        <a href={project.codeUrl} target="_blank" className='flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:brightness-75'>
         <button>{<FaGithub size={30} />}</button>
         </a>
     </div>

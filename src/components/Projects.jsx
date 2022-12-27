@@ -11,7 +11,7 @@ function Projects() {
             <p className='text-4xl font-bold inline border-b-4 border-purple-800'>Projects</p>
             <p className='py-6'>Take a look right here 👀</p>
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 px-12">
             {ProjectsData.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
