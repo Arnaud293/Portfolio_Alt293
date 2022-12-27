@@ -20,7 +20,7 @@ export const socialLinks = [
         child: (
             <>LinkedIn <FaLinkedin size={30} /></>
         ),
-        url: 'https://linkedin.com',
+        url: 'https://www.linkedin.com/in/arnaud-le-tallec-106b571a7/',
         style: 'rounded-tr-md'
     },
     {
