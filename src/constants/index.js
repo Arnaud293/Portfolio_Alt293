@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-// SRC
+// Projects SRC
 
 import Metaversus from '../assets/portfolio/metaversus.png';
 import CloneTube from '../assets/portfolio/clone-tube.png';
@@ -13,6 +13,89 @@ import Groupomania from '../assets/portfolio/groupomania.png';
 import Kanap from '../assets/portfolio/kanap.png';
 import OhMyFood from '../assets/portfolio/ohmyfood.png';
 import Panthere from '../assets/portfolio/panthere.png';
+
+// Stack SRC 
+
+import Css from '../assets/css.png';
+import Html from '../assets/html.png';
+import Firebase from '../assets/firebase.png';
+import Github from '../assets/github.png';
+import Javascript from '../assets/javascript.png';
+import Nextjs from '../assets/nextjs.png';
+import Node from '../assets/node.png';
+import Reactjs from '../assets/react.png';
+import Redux from '../assets/redux.png';
+import Sass from '../assets/sass.png';
+import Tailwind from '../assets/tailwind.png';
+
+export const StackData = [
+    {
+        id: 1,
+        url : Css,
+        title: 'CSS',
+        style : 'shadow-blue-500',
+    },
+    {
+        id: 2,
+        url : Html ,
+        title: 'HTML',
+        style : 'shadow-orange-500',
+    },
+    {
+        id: 3,
+        url : Javascript ,
+        title: 'Javascript',
+        style : 'shadow-yellow-500',
+    },
+    {
+        id: 4,
+        url : Reactjs ,
+        title: 'React',
+        style : 'shadow-cyan-500',
+    },
+    {
+        id: 5,
+        url : Redux ,
+        title: 'Redux',
+        style : 'shadow-purple-800',
+    },
+    {
+        id: 6,
+        url : Node ,
+        title: 'Nodejs',
+        style : 'shadow-green-600',
+    },
+    {
+        id: 7,
+        url : Nextjs ,
+        title: 'Nextjs',
+        style : 'shadow-white',
+    },
+    {
+        id: 8,
+        url : Sass ,
+        title: 'Sass',
+        style : 'shadow-pink-500',
+    },
+    {
+        id: 9,
+        url : Tailwind ,
+        title: 'Tailwind',
+        style : 'shadow-sky-500',
+    },
+    {
+        id: 10,
+        url : Github ,
+        title: 'GitHub',
+        style : 'shadow-gray-600',
+    },
+    {
+        id: 11,
+        url : Firebase ,
+        title: 'Firebase',
+        style : 'shadow-yellow-500',
+    },
+];
 
 export const socialLinks = [
     {
