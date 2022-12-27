@@ -111,14 +111,12 @@ export const ProjectsData = [
         id: 6,
         imgUrl: Groupomania,
         title: 'Groupomania',
-        demoUrl: '',
         codeUrl: 'https://github.com/Arnaud293/P7_OC_DevWeb'
     },
     {
         id: 7,
         imgUrl: Kanap,
         title: 'Kanap',
-        demoUrl: '',
         codeUrl: 'https://github.com/Arnaud293/P5_OC_KANAP'
     },
     {
