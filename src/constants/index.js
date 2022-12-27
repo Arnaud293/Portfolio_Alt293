@@ -2,6 +2,18 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
+// SRC
+
+import Metaversus from '../assets/portfolio/metaversus.png';
+import CloneTube from '../assets/portfolio/clone-tube.png';
+import Nitflex from '../assets/portfolio/nitflex.png';
+import Crypto from '../assets/portfolio/crypto_desktop.png';
+import Resto from '../assets/portfolio/theresto.png';
+import Groupomania from '../assets/portfolio/groupomania.png';
+import Kanap from '../assets/portfolio/kanap.png';
+import OhMyFood from '../assets/portfolio/ohmyfood.png';
+import Panthere from '../assets/portfolio/panthere.png';
+
 export const socialLinks = [
     {
         id: 1,
@@ -62,63 +74,63 @@ export const links = [
 export const ProjectsData = [
     {
         id: 1,
-        imgUrl:'../assets/portfolio/metaversus.png',
+        imgUrl: Metaversus,
         title: 'Metaversus',
         demoUrl: 'https://precious-malabi-33d670.netlify.app',
         codeUrl: 'https://github.com/Arnaud293/NextJs_Metaverse_LandingPage'
     },
     {
         id: 2,
-        imgUrl:'../assets/portfolio/clone-tube.png',
+        imgUrl: CloneTube,
         title: 'CloneTube',
         demoUrl: 'https://sprightly-tiramisu-e0edbf.netlify.app',
         codeUrl: 'https://github.com/Arnaud293/ReactApp_Youtube-clone'
     },
     {
         id: 3,
-        imgUrl:'../assets/portfolio/nitflex.png',
+        imgUrl: Nitflex,
         title: 'Nitflex',
         demoUrl: 'https://sparkling-youtiao-7bb6c8.netlify.app',
         codeUrl: 'https://github.com/Arnaud293/ReactApp_movieAPI_NetflixClone'
     },
     {
         id: 4,
-        imgUrl:'../assets/portfolio/crypto_desktop.png',
+        imgUrl: Crypto,
         title: 'Watch Tower',
         demoUrl: 'https://warm-biscotti-e182f7.netlify.app',
         codeUrl: 'https://github.com/Arnaud293/ReactJs_CryptoApp'
     },
     {
         id: 5,
-        imgUrl:'../assets/portfolio/theresto.png',
+        imgUrl: Resto,
         title: 'The Resto',
         demoUrl: 'https://arnaud293.github.io/Scss_Model_Integration_The-Resto/',
         codeUrl: 'https://github.com/Arnaud293/Scss_Model_Integration_The-Resto'
     },
     {
         id: 6,
-        imgUrl:'../assets/portfolio/groupomania.png',
+        imgUrl: Groupomania,
         title: 'Groupomania',
         demoUrl: '',
         codeUrl: 'https://github.com/Arnaud293/P7_OC_DevWeb'
     },
     {
         id: 7,
-        imgUrl:'../assets/portfolio/kanap.png',
+        imgUrl: Kanap,
         title: 'Kanap',
         demoUrl: '',
         codeUrl: 'https://github.com/Arnaud293/P5_OC_KANAP'
     },
     {
         id: 8,
-        imgUrl:'../assets/portfolio/ohmyfood.png',
+        imgUrl: OhMyFood,
         title: 'Oh My Food',
         demoUrl: 'https://arnaud293.github.io/OhMyFood_P3_OC/',
         codeUrl: 'https://github.com/Arnaud293/OhMyFood_P3_OC'
     },
     {
         id: 9,
-        imgUrl:'../assets/portfolio/panthere.png',
+        imgUrl: Panthere,
         title: 'La Panthère',
         demoUrl: 'https://arnaud293.github.io/Projet4_OC_LaPanthere/',
         codeUrl: 'https://github.com/Arnaud293/Projet4_OC_LaPanthere'
