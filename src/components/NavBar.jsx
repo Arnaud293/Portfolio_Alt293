@@ -10,7 +10,7 @@ function NavBar() {
     const [nav, setNav] = useState(false);
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
+    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 z-10'>
         <div className="">
             <h1 className='font-signature text-3xl ml-2'>Arnaud</h1>
         </div>
