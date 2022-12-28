@@ -27,6 +27,8 @@ import Reactjs from '../assets/react.png';
 import Redux from '../assets/redux.png';
 import Sass from '../assets/sass.png';
 import Tailwind from '../assets/tailwind.png';
+import Mui from '../assets/mui.png';
+import RapidApi from '../assets/rapidapi.webp';
 
 export const StackData = [
     {
@@ -103,6 +105,9 @@ export const socialLinks = [
         child: (
             <>LinkedIn <FaLinkedin size={30} /></>
         ),
+        childSm: (
+            <><FaLinkedin size={30} /></>
+        ),
         url: 'https://www.linkedin.com/in/arnaud-le-tallec-106b571a7/',
         style: 'rounded-tr-md'
     },
@@ -111,6 +116,9 @@ export const socialLinks = [
         child: (
             <>GitHub <FaGithub size={30} /></>
         ),
+        childSm: (
+            <><FaGithub size={30} /></>
+        ),
         url: 'https://github.com/Arnaud293',
     },
     {
@@ -118,12 +126,18 @@ export const socialLinks = [
         child: (
             <>Mail <HiOutlineMail size={30} /></>
         ),
+        childSm: (
+            <><HiOutlineMail size={30} /></>
+        ),
         url: 'mailto:arnaudlt293@gmail.com',
     },
     {
         id: 4,
         child: (
             <>Resume <BsFillPersonLinesFill size={30} /></>
+        ),
+        childSm: (
+            <><BsFillPersonLinesFill size={30} /></>
         ),
         url: '/resume.pdf',
         style: 'rounded-br-md',
@@ -160,61 +174,70 @@ export const ProjectsData = [
         imgUrl: Metaversus,
         title: 'Metaversus',
         demoUrl: 'https://precious-malabi-33d670.netlify.app',
-        codeUrl: 'https://github.com/Arnaud293/NextJs_Metaverse_LandingPage'
+        codeUrl: 'https://github.com/Arnaud293/NextJs_Metaverse_LandingPage',
+        stack: [Tailwind, Nextjs, Reactjs]
     },
     {
         id: 2,
         imgUrl: CloneTube,
         title: 'CloneTube',
         demoUrl: 'https://sprightly-tiramisu-e0edbf.netlify.app',
-        codeUrl: 'https://github.com/Arnaud293/ReactApp_Youtube-clone'
+        codeUrl: 'https://github.com/Arnaud293/ReactApp_Youtube-clone',
+        stack: [Reactjs, RapidApi, Mui]
     },
     {
         id: 3,
         imgUrl: Nitflex,
         title: 'Nitflex',
         demoUrl: 'https://sparkling-youtiao-7bb6c8.netlify.app',
-        codeUrl: 'https://github.com/Arnaud293/ReactApp_movieAPI_NetflixClone'
+        codeUrl: 'https://github.com/Arnaud293/ReactApp_movieAPI_NetflixClone',
+        stack: [Reactjs, Sass]
     },
     {
         id: 4,
         imgUrl: Crypto,
         title: 'Watch Tower',
         demoUrl: 'https://warm-biscotti-e182f7.netlify.app',
-        codeUrl: 'https://github.com/Arnaud293/ReactJs_CryptoApp'
+        codeUrl: 'https://github.com/Arnaud293/ReactJs_CryptoApp',
+        stack: [Reactjs, Redux ,Sass]
     },
     {
         id: 5,
         imgUrl: Resto,
         title: 'The Resto',
         demoUrl: 'https://arnaud293.github.io/Scss_Model_Integration_The-Resto/',
-        codeUrl: 'https://github.com/Arnaud293/Scss_Model_Integration_The-Resto'
+        codeUrl: 'https://github.com/Arnaud293/Scss_Model_Integration_The-Resto',
+        stack: [Html, Sass]
     },
     {
         id: 6,
         imgUrl: Groupomania,
         title: 'Groupomania',
-        codeUrl: 'https://github.com/Arnaud293/P7_OC_DevWeb'
+        codeUrl: 'https://github.com/Arnaud293/P7_OC_DevWeb',
+        stack: [Reactjs, Redux, Node, Sass]
     },
     {
         id: 7,
         imgUrl: Kanap,
         title: 'Kanap',
-        codeUrl: 'https://github.com/Arnaud293/P5_OC_KANAP'
+        codeUrl: 'https://github.com/Arnaud293/P5_OC_KANAP',
+        stack: [Javascript]
     },
     {
         id: 8,
         imgUrl: OhMyFood,
         title: 'Oh My Food',
         demoUrl: 'https://arnaud293.github.io/OhMyFood_P3_OC/',
-        codeUrl: 'https://github.com/Arnaud293/OhMyFood_P3_OC'
+        codeUrl: 'https://github.com/Arnaud293/OhMyFood_P3_OC',
+        stack: [Html, Sass]
     },
     {
         id: 9,
         imgUrl: Panthere,
         title: 'La Panthère',
         demoUrl: 'https://arnaud293.github.io/Projet4_OC_LaPanthere/',
-        codeUrl: 'https://github.com/Arnaud293/Projet4_OC_LaPanthere'
+        codeUrl: 'https://github.com/Arnaud293/Projet4_OC_LaPanthere',
+        stack: [Html, Css, Javascript]
     }
 ];
 
