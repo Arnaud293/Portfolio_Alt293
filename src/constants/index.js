@@ -216,4 +216,23 @@ export const ProjectsData = [
         demoUrl: 'https://arnaud293.github.io/Projet4_OC_LaPanthere/',
         codeUrl: 'https://github.com/Arnaud293/Projet4_OC_LaPanthere'
     }
+];
+
+export const AboutOne = [
+    "After working as a communication officer from 2019 to 2022, I acquired",
+    " the experience, confidence and resources necessary to develop my",
+    " retraining project. Passionate and curious by nature, I keep this",
+    " experience in my mind. But my first professional wish has always been",
+    " oriented towards the heart of new technologies. This is how I immerse",
+    " myself in web development in 2020."
+];
+
+export const AboutTwo = [
+    "I start a diploma course in March 2022 at OpenClassrooms and obtain my",
+    " certification in the record time of only 4 months. I then deepened my",
+    " skills and affinities were born with certain technologies. I now see",
+    " Javascript as a passport to today's web as well as tomorrow's web",
+    " (3.0). Since then, I train every day with React as my standard",
+    " library, allowing myself to find more features elsewhere when the need",
+    " is real."
 ]
