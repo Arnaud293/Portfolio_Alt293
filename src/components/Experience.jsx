@@ -2,6 +2,9 @@ import React from 'react';
 
 import { StackData } from '../constants';
 import StackCard from './StackCard';
+// Animations
+import { motion } from 'framer-motion';
+import { staggerContainer } from '../utils/motion';
 
 function Experience() {
   return (
@@ -11,12 +14,17 @@ function Experience() {
                 <p className='text-4xl font-bold border-b-4 border-purple-800 p-2 inline'>Experience</p>
                 <p className='py-6'>I work with these technologies 👇</p>
             </div>
-            <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+            <motion.div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{once: false, amount: 0.25 }}
+            >
                 {StackData.map((stack, index) => (
                     <StackCard key={stack.id} stack={stack} index={index} />
                 ))}
                 
-            </div>
+            </motion.div>
         </div>
     </div>
   )
