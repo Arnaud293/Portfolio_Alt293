@@ -24,7 +24,7 @@ const ProjectCard = ({ project, index }) => {
         />
         {isHovered && (
           <div className="absolute top-0 w-full h-full flex flex-col items-center backdrop-brightness-50">
-            <p className="text-purple-500 font-signature uppercase mt-5">{project.title}</p>
+            <p className="text-white font-signature uppercase mt-5">{project.title}</p>
             <div className="flex flex-row flex-wrap w-full h-full justify-center gap-4">
               {project.stack.map((item) => (
                 <img src={item} alt='stack-logo' className=" h-[25%] mt-10 " />
