@@ -13,6 +13,7 @@ import Groupomania from '../assets/portfolio/groupomania.png';
 import Kanap from '../assets/portfolio/kanap.png';
 import OhMyFood from '../assets/portfolio/ohmyfood.png';
 import Panthere from '../assets/portfolio/panthere.png';
+import Portfolio from '../assets/portfolio/arnaudlt293.png'
 
 // Stack SRC 
 
@@ -238,7 +239,14 @@ export const ProjectsData = [
         demoUrl: 'https://arnaud293.github.io/Projet4_OC_LaPanthere/',
         codeUrl: 'https://github.com/Arnaud293/Projet4_OC_LaPanthere',
         stack: [Html, Css, Javascript]
-    }
+    },
+    {
+        id: 10,
+        imgUrl: Portfolio,
+        title: 'Portfolio',
+        codeUrl: 'https://github.com/Arnaud293/Portfolio_Final_React-Tailwind',
+        stack: [Reactjs, Tailwind]
+    },
 ];
 
 export const AboutOne = [
