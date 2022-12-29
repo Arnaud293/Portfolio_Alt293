@@ -33,7 +33,7 @@ const ProjectCard = ({ project, index }) => {
           </div>
         )}
       </div>
-      <div className="flex items-center justify-center h-[25%]">
+      <div className="flex items-center justify-center h-[25%] relative">
         {project.demoUrl && (
           <a
             href={project.demoUrl}
