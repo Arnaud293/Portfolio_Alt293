@@ -13,7 +13,9 @@ import Groupomania from '../assets/portfolio/groupomania.png';
 import Kanap from '../assets/portfolio/kanap.png';
 import OhMyFood from '../assets/portfolio/ohmyfood.png';
 import Panthere from '../assets/portfolio/panthere.png';
-import Portfolio from '../assets/portfolio/arnaudlt293.png'
+import Portfolio from '../assets/portfolio/arnaudlt293.png';
+import Blog from '../assets/portfolio/blogApp.png';
+import Krypt from '../assets/portfolio/Krypt.png';
 
 // Stack SRC 
 
@@ -30,6 +32,9 @@ import Sass from '../assets/sass.png';
 import Tailwind from '../assets/tailwind.png';
 import Mui from '../assets/mui.png';
 import RapidApi from '../assets/rapidapi.webp';
+import Solidity from '../assets/Solidity.png';
+import GraphQL from '../assets/graphQL.png';
+import MetaMask from '../assets/metamask.png';
 
 export const StackData = [
     {
@@ -246,6 +251,22 @@ export const ProjectsData = [
         title: 'Portfolio',
         codeUrl: 'https://github.com/Arnaud293/Portfolio_Final_React-Tailwind',
         stack: [Reactjs, Tailwind]
+    },
+    {
+        id: 11,
+        imgUrl: Blog,
+        title: 'Alt293 Blog',
+        demoUrl:'https://blog-app-next-js-delta.vercel.app/post/before-retraining-in-it',
+        codeUrl: 'https://github.com/Arnaud293/BlogApp_NextJs',
+        stack: [Reactjs, Tailwind, Nextjs, GraphQL]
+    },
+    {
+        id: 12,
+        imgUrl: Krypt,
+        title: 'Crypto Exchange',
+        demoUrl: 'https://sparkly-figolla-3d2974.netlify.app',
+        codeUrl: 'https://github.com/Arnaud293/Web_3_React-Solidity_App',
+        stack: [Reactjs, Tailwind, Solidity, MetaMask]
     },
 ];
 
